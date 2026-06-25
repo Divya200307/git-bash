@@ -1,0 +1,256 @@
+Divya@DESKTOP-UE7FRQD MINGW64 ~
+$ cd "C:\DEMOOO"
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO
+$ ls
+ex.py  ex.txt
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO
+$ pwd
+/c/DEMOOO
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO
+$ git init
+Initialized empty Git repository in C:/DEMOOO/.git/
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git commit -m "first commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ex.py
+        ex.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git remote add origin https://github.com/Divya200307/gitttthubbb.git
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Divya200307/gitttthubbb.git'
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Divya200307/gitttthubbb.git'
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ cd "C:\DEMOOO"
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ ls
+ex.py  ex.txt
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ pwd
+/c/DEMOOO
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git init
+Reinitialized existing Git repository in C:/DEMOOO/.git/
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git add .
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   ex.py
+        new file:   ex.txt
+
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Divya200307/gitttthubbb.git'
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git commit -m "first commit"
+[master (root-commit) 754a6bf] first commit
+ 2 files changed, 2 insertions(+)
+ create mode 100644 ex.py
+ create mode 100644 ex.txt
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git remote add origin https://github.com/Divya200307/gitttthubbb.git
+error: remote origin already exists.
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 229 bytes | 229.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Divya200307/gitttthubbb.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git branch b3
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git branch
+  b3
+* master
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git checkout b3
+Switched to branch 'b3'
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (b3)
+$ git add .
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (b3)
+$ git commit -m "first commit"
+On branch b3
+nothing to commit, working tree clean
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (b3)
+$ git remote add origin https://github.com/Divya200307/gitttthubbb.git
+error: remote origin already exists.
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (b3)
+$ git push -u origin master
+branch 'master' set up to track 'origin/master'.
+Everything up-to-date
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (b3)
+$ git push -u origin b3
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'b3' on GitHub by visiting:
+remote:      https://github.com/Divya200307/gitttthubbb/pull/new/b3
+remote:
+To https://github.com/Divya200307/gitttthubbb.git
+ * [new branch]      b3 -> b3
+branch 'b3' set up to track 'origin/b3'.
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (b3)
+$ git branch b4
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (b3)
+$ git checkout b4
+Switched to branch 'b4'
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (b4)
+$ git add .
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (b4)
+$ git status
+On branch b4
+nothing to commit, working tree clean
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (b4)
+$ git commit -m "first commit"
+On branch b4
+nothing to commit, working tree clean
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (b4)
+$ git push -u origin b4
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'b4' on GitHub by visiting:
+remote:      https://github.com/Divya200307/gitttthubbb/pull/new/b4
+remote:
+To https://github.com/Divya200307/gitttthubbb.git
+ * [new branch]      b4 -> b4
+branch 'b4' set up to track 'origin/b4'.
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (b4)
+$ git log
+commit 754a6bf92e71659844c19f660f1cdfc15ad77656 (HEAD -> b4, origin/master, origin/b4, origin/b3, master, b3)
+Author: Divya200307 <ksdivya200307@gmail.com>
+Date:   Thu Jun 25 09:27:44 2026 +0530
+
+    first commit
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (b4)
+$ git status
+On branch b4
+Your branch is up to date with 'origin/b4'.
+
+nothing to commit, working tree clean
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (b4)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git commit -m "first commit"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git show 754a6bf92e71659844c19f660f1cdfc15ad77656
+commit 754a6bf92e71659844c19f660f1cdfc15ad77656 (HEAD -> master, origin/master, origin/b4, origin/b3, b4, b3)
+Author: Divya200307 <ksdivya200307@gmail.com>
+Date:   Thu Jun 25 09:27:44 2026 +0530
+
+    first commit
+
+diff --git a/ex.py b/ex.py
+new file mode 100644
+index 0000000..b80e322
+--- /dev/null
++++ b/ex.py
+@@ -0,0 +1 @@
++print("hi")
+diff --git a/ex.txt b/ex.txt
+new file mode 100644
+index 0000000..b80e322
+--- /dev/null
++++ b/ex.txt
+@@ -0,0 +1 @@
++print("hi")
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git branch b1
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ get checkout b1
+bash: get: command not found
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git add .
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git commit -m "first commit"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (master)
+$ git checkout b1
+Switched to branch 'b1'
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (b1)
+$ git status
+On branch b1
+nothing to commit, working tree clean
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (b1)
+$ git log
+commit 754a6bf92e71659844c19f660f1cdfc15ad77656 (HEAD -> b1, origin/master, origin/b4, origin/b3, master, b4, b3)
+Author: Divya200307 <ksdivya200307@gmail.com>
+Date:   Thu Jun 25 09:27:44 2026 +0530
+
+    first commit
+
+Divya@DESKTOP-UE7FRQD MINGW64 /c/DEMOOO (b1)
+$
